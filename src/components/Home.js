@@ -8,7 +8,7 @@ import {Helmet} from "react-helmet";
 
 import { getPosts} from '../actions/PostActions.js';
 import AppConstants from '../constants/AppConstants.js';
-import thumbimg from '../images/thumb-2.jpg';
+//import thumbimg from '../images/thumb-2.jpg';
 
 
 class Home extends Component {
