@@ -4,7 +4,7 @@ const Store_posts = [
   {
     _id : '34739847394',
     category_title: 'angular',
-    post_title: 'Angular Shopping Cart',
+    post_title: 'Shopping Cart',
     post_slug: 'angular-shopping-cart',
     post_description: 'Shopping cart application build with angular and redux',
     post_create_date: '2021-02-21T14:11:49.119Z',
