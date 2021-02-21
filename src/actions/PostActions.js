@@ -4,11 +4,11 @@ const Store_posts = [
   {
     _id : '34739847394',
     category_title: 'angular',
-    post_title: 'is chromebook still a thing',
-    post_slug: 'is_chromebook_still_a_thing',
-    post_description: 'nunc fringilla turpis tincidunt purus malesuada, vel faucibus mauris finibus. ',
-    post_create_date: '2020-07-01T14:11:49.119Z',
-    post_url : 'www.google.com'
+    post_title: 'Angular Shopping Cart',
+    post_slug: 'angular-shopping-cart',
+    post_description: 'Shopping cart application build with angular and redux',
+    post_create_date: '2021-02-21T14:11:49.119Z',
+    post_url : 'https://angular-shopping-cart.netlify.app'
   },
   {
     _id : '9334834343',
