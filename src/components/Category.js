@@ -28,7 +28,7 @@ class Category extends Component {
             return posts.map((post, index) => {
                 return (
                     <div className="col-md-3 post-wrapper" key={post._id}>
-                        <a href={post.post_url}>  
+                        <a href={post.post_url} target="_blank">  
                         <div className="post post-style-2" style={{ cursor: 'pointer'}}>
                             <div className="post-infos">
                             <div className="post-category">{post.category_title} <span className="float-right">{moment(post.post_create_date).format("YYYY-MM-DD")}</span></div>

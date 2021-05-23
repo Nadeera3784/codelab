@@ -88,7 +88,7 @@ class Home extends Component {
 
                 {posts.slice(startIndex, startIndex + AppConstants.CMS_TOTAL_POST_PER_PAGE).map(post =>(
                 <div className="col-md-3 post-wrapper" key={post._id}>
-                    <a href={post.post_url}> 
+                    <a href={post.post_url} target="_blank"> 
                         <div className="post post-style-2" style={{ cursor: 'pointer'}}>
                             {/* <div className="post-image-container"><img className="post-image" src={thumbimg} alt=""/></div> */}
                             <div className="post-infos">
